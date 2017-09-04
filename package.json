@@ -1,0 +1,18 @@
+{
+  "name": "angularjs-hana-authenticate",
+  "version": "0.0.2",
+  "description": "Service to authenticate at a sap hana system via FormLogin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./src/app.js ./dist/angularjs-hana-authenticate.js"
+  },
+  "author": "Mathias McB <mathias.anonym@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}
