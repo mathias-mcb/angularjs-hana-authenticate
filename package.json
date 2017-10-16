@@ -5,12 +5,14 @@
   "main": "dist/angularjs-hana-authenticate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack ./src/app.js ./dist/angularjs-hana-authenticate.js"
+    "build": "webpack ./src/app.js ./dist/angularjs-hana-authenticate.js",
+    "example": "webpack-dev-server --config ./example/webpack.config.js"
   },
   "author": "Mathias McB <mathias.anonym@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
     "angular": "^1.6.6"
